@@ -30,3 +30,4 @@
 	st = status
 	stat = status
 	P = push
+  c = commit
