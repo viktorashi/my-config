@@ -45,3 +45,4 @@ function vol() {
 
 . "/Users/viktorashi/.deno/env"
 . "$HOME/.local/bin/env"
+. "$HOME/.cargo/env"
