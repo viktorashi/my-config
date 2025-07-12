@@ -44,6 +44,8 @@ alias grp='git remote prune origin'
 alias ghm='gh pr merge --admin -d && git remote prune origin'
 
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias configst='config add ~/.config/nvim/ && config status'
+alias conf='configst'
 
 #sunt prea putoare
 #alias m='make'
