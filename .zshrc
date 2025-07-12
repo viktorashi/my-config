@@ -18,7 +18,7 @@ alias gr='egrep -irna'
 # 
 alias gs='git status'
 alias gp='git push'
-alias gc='git commit -a && gp'
+alias gc='git commit -a && git push'
 alias gpul='git pull'
 alias gd='git diff'
 alias ga='git add .'
@@ -41,9 +41,9 @@ alias gsd='git stash drop' #asta face practic pop
 alias gw='git worktree'
 
 alias grp='git remote prune origin'
-alias ghm='gh pr merge --admin -d && grp'
+alias ghm='gh pr merge --admin -d && git remote prune origin'
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 #sunt prea putoare
 #alias m='make'
