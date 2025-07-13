@@ -1,3 +1,4 @@
+-- sa poti sa dai fata spate la bufferuri cu cate un <count>
 return {
   "akinsho/bufferline.nvim",
   keys = {
